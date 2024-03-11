@@ -67,7 +67,7 @@ stations.splice(4, 1);
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
 stations.splice(3, 0, "Darlington")
-console.log(stations);
+//console.log(stations);
 
 
 
@@ -76,12 +76,17 @@ console.log(stations);
  * Is Durham one of the stops?
  */
 
-stoppingAtDurham = null;
+stoppingAtDurham = stations.includes("Durham");
 
-// console.log(stoppingAtDurham);
+//console.log(stoppingAtDurham);
 
 
 /**
  * Q9.
  * If we are stopping at Durham, print "Yay Durham!" to the terminal. If not print "Aww...".
  */
+if(stoppingAtDurham){
+    console.log("Yay Durham!");
+} else {
+    console.log("Aww...");
+}
