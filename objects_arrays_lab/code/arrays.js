@@ -18,7 +18,7 @@ stations.push("London");
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
 stations.shift("Dundee")
-console.log(stations);
+// console.log(stations);
 
 
 
@@ -27,9 +27,9 @@ console.log(stations);
  * How many stations are on the line?
  */
 
-stationCount = null;
+stationCount = stations.length;
 
-// console.log("There are " + stationCount + " stations.");
+console.log("There are " + stationCount + " stations.");
 
 
 
