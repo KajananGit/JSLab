@@ -43,15 +43,15 @@ catBreed = cat.breed;
  * Q3. It's the tortoise's birthday! Add one to her current age.
  */
 tortoise.age ++;
-console.log(tortoise)
+//console.log(tortoise)
 
 /**
  * Q4. How many different colours is Poppy?
  */
 
-dogColourCount = null;
+dogColourCount = dog.colours.length;
 
-// console.log("The dog has " + dogColourCount + " different colours");
+console.log("The dog has " + dogColourCount + " different colours");
 
 /**
  * Q5. I've just bought a 12-year-old African Grey parrot called Lucky. Create an object for her.
