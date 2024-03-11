@@ -31,18 +31,17 @@ unitedKingdom = [
 /**
  * Q1. Add some tourist attractions to England
  */
-
-england = null;
-
-// console.log(england);
+let england = unitedKingdom.find(england => england.name === "England");
+england.touristAttractions = ["Buckingham Palace", "London Eye", "Big Ben"];
+//console.log(england);
 
 /**
  * Q2. Change the capital of Wales to "Cardiff"
  */
+let wales = unitedKingdom.find(wales => wales.name === "Wales");
+wales.capital = "Cardiff";
 
-wales = null;
-
-// console.log(wales);
+console.log(wales);
 
 /**
  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
